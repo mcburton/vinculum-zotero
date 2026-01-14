@@ -7,8 +7,8 @@
   "homepage_url": "https://github.com/mcburton/vinculum-zotero",
   "applications": {
     "zotero": {
-      "id": "vinculum-zotero@example.com",
-      "update_url": "https://example.com/updates.json",
+      "id": "vinculum-zotero@mcburton.net",
+      "update_url": "https://github.com/mcburton/vinculum-zotero/releases/latest/download/updates.json",
       "strict_min_version": "7.0",
       "strict_max_version": "8.*"
     }
