@@ -15,14 +15,29 @@ The name "Vinculum" comes from Latin, meaning "chain" or "link," in the style of
 
 ## Installation
 
-1. Build the plugin:
+### Download and Install
+
+1. Download the latest release: [vinculum-zotero.xpi](https://github.com/mcburton/vinculum-zotero/releases/latest/download/vinculum-zotero.xpi)
+   - **Firefox users:** Right-click the link and select "Save Link As..." (Firefox will try to install it as a browser extension)
+   
+2. In Zotero, go to Tools → Add-ons
+
+3. Click the gear icon → Install Add-on From File
+
+4. Select the downloaded `vinculum-zotero.xpi` file
+
+### Developer Build
+
+If you want to build from source:
+
+1. Clone this repository
+
+2. Build the plugin:
    ```bash
    zip -r vinculum-zotero.xpi manifest.json bootstrap.js
    ```
 
-2. In Zotero, go to Tools → Add-ons
-3. Click the gear icon → Install Add-on From File
-4. Select the `vinculum-zotero.xpi` file
+3. Install in Zotero following steps 2-4 above
 
 ## Usage
 
